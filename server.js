@@ -32,7 +32,4 @@ app.get('/*', function(req, res) {
 
 // Start the app by listening on the default
 // Heroku port
-app.listen(process.env.PORT || 3000);
-var server = app.listen(app.get('port'), function() {
-  debug('Express server listening on port ' + server.address().port);
-});
+.listen(process.env.PORT || 5000)
